@@ -3,6 +3,6 @@ def turn_count(board)
       counter = 0
       if "#{move}" == "X" || "#{move}" == "O"
       counter += 1
-    else puts "Game over!"
+      else puts "Game over!"
     end
 end
