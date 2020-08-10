@@ -7,3 +7,10 @@ def turn_count(board)
     end
     counter
 end
+
+def current_player(board)
+  if turn_count(board) == 0 || #is even number
+    # current_player = X
+  else #current_player = O
+  end
+end
