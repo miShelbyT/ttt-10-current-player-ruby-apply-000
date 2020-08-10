@@ -3,5 +3,7 @@ def turn_count(board)
       counter = 0
       if "#{move}" == "X" || "#{move}" == "O"
       counter += 1
+      end
     end
-end
+    counter
+  end
